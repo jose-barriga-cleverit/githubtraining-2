@@ -2,7 +2,7 @@ const core = require("@actions/core");
 
 const gradeLearner = require("./lib/gradeLearner");
 
-async function run() {
+const run = () => {
   try {
     const results = await gradeLearner();
     core.setOutput("reports", results);
@@ -11,4 +11,6 @@ async function run() {
   }
 }
 
-run();
+module.exports = {
+  run
+}

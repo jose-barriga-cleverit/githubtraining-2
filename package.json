@@ -2,7 +2,10 @@
   "name": "local-action",
   "version": "1.0.0",
   "description": "Local exercise action to verify the desire commit was removed",
-  "main": "index.js",
+  "main": "main.js",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@learning-actions-clever"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "ncc build main.js"
