@@ -1,18 +1,15 @@
 {
-  "name": "local-action",
+  "name": "@jose-barriga-cleverit/githubtraining-2",
   "version": "1.0.0",
   "description": "Local exercise action to verify the desire commit was removed",
   "main": "main.js",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@learning-actions-clever"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "ncc build main.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/githubtraining/exercise-publish-package.git"
+    "url": "git+https://github.com/jose-barriga-cleverit/githubtraining-2.git"
   },
   "author": "githubtraining",
   "license": "MIT",
